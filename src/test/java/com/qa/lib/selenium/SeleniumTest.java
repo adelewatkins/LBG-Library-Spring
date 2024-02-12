@@ -58,4 +58,5 @@ public class SeleniumTest {
 				.findElement(By.cssSelector("#root > main > div > section:nth-child(1) > div:nth-child(3) > h3"));
 		Assertions.assertEquals("Barry", created.getText());
 	}
+
 }
